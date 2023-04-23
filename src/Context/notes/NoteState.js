@@ -4,7 +4,7 @@ import { useState } from "react";
 import NoteContext from "./NoteContext";
 
 const NoteState = (props) => {
-  const host = process.env.REACT_APP_HOST;
+  const host = window.location.origin;
   const noteArr = [];
 
   // Get all notes
