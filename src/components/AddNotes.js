@@ -60,7 +60,7 @@ const AddNotes = () => {
               name="description"
               onChange={onChange}
               value={noteN.description}
-              minLength={5}
+              minLength={7}
               required
               style={{
                 backgroundColor: btn === "light" ? "white" : "#1a2027",

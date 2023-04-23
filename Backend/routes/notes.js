@@ -17,7 +17,7 @@ router.get(
       res.json(notes);
     } catch (error) {
       console.error(error.message);
-      res.status(500).send("Some error occurred token");
+      res.status(500).json("Some error occurred token");
     }
   }
 );

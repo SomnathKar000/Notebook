@@ -4,7 +4,7 @@ import { useState } from "react";
 import NoteContext from "./NoteContext";
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000";
+  const host = process.env.REACT_APP_HOST;
   const noteArr = [];
 
   // Get all notes
@@ -21,7 +21,6 @@ const NoteState = (props) => {
       setNotes(json);
     } catch (error) {
       //Some error occurred
-      localStorage.removeItem("token");
     }
   };
 
