@@ -15,8 +15,9 @@ const Signup = () => {
     setUserInfo({ ...userInfo, [e.target.id]: e.target.value });
   };
   const onSubmit = async (e) => {
+    const host = window.location.origin;
     e.preventDefault();
-    const responce = await fetch("http://localhost:5000/api/auth/createuser", {
+    const responce = await fetch(host + "/api/auth/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

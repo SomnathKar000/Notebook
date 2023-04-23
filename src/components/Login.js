@@ -11,9 +11,10 @@ const Login = () => {
   let history = useNavigate();
 
   const loginUser = async (e) => {
+    const host = window.location.origin;
     e.preventDefault();
 
-    const responce = await fetch("http://localhost:5000/api/auth/login", {
+    const responce = await fetch(host + "/api/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
