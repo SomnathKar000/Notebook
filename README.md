@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Notebook Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Notebook Website is a MERN stack project that allows users to upload, delete, and update their personal notes, as well as search for notes by the title. It provides a user-friendly interface using Bootstrap for styling. The project utilizes the following technologies:
 
-## Available Scripts
+[Home page](https://github-production-user-asset-6210df.s3.amazonaws.com/108184610/245466643-93d33d4f-cb37-4d12-9a11-b7d114134e54.png)
+[Sign up Page](https://github-production-user-asset-6210df.s3.amazonaws.com/108184610/245466743-d7a47818-570a-485d-9fd5-7e44ea5a9b7a.png)
+[Login Page](https://github-production-user-asset-6210df.s3.amazonaws.com/108184610/245466731-06c9edc3-fb44-4f2d-8989-28a753085a60.png)
 
-In the project directory, you can run:
+- React: A JavaScript library for building user interfaces.
+- React Router: A routing library for managing navigation within the application.
+- MongoDB: A NoSQL database for storing note data.
+- Express.js: A web application framework for building the backend API.
+- Node.js: A JavaScript runtime environment for server-side development.
+- JSON Web Tokens (JWT): A token-based authentication mechanism for securing user access.
+- bcryptjs: A library for encrypting and decrypting user data.
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo of the website: [Notebook Website](https://notebook-somnath000.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run the website locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `https://github.com/SomnathKar000/Notebook`
+2. Navigate to the Backend directory: `cd Backend`
+3. Install Backend dependencies: `npm install`
+4. Return to the root directory: `cd ..`
+5. Install root directory dependencies: `npm install`
 
-### `npm run build`
+Make sure to set up the following environment variables:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Create a `.env` file in the root directory of the project.
+- Define the following environment variables in the `.env` file:
+  - `DB_URI=<your-mongodb-uri>`: The MongoDB connection URI
+  - `JWT_SECRET=<your-jwt-secret>`: The secret key used for JWT authentication
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Start both servers: `npm run both`
+2. Open the application in your browser: `http://localhost:3000`
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m 'Add your message here'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a pull request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Please make sure to run tests before submitting your pull request and adhere to the code style guidelines.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+For more information or questions, feel free to reach out:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: somnathkar2023@gmail.com
+- LinkedIn: [Somnath Kar](https://www.linkedin.com/in/somnath-kar-aa73aa1a3)
+- GitHub: [SomnathKar000](https://github.com/SomnathKar000)

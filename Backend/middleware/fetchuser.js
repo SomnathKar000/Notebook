@@ -1,4 +1,4 @@
-const JWT_SECRET = "MYNAmeI$Somnath";
+const JWT_SECRET = process.env.JWT_SECRET;
 var jwt = require("jsonwebtoken");
 
 const fetchdata = (req, res, next) => {

@@ -6,7 +6,7 @@ const User = require("../models/User");
 const { body, validationResult } = require("express-validator");
 var fetchuser = require("../middleware/fetchuser");
 
-const JWT_SECRET = "MYNAmeI$Somnath";
+const JWT_SECRET = process.env.JWT_SECRET;
 
 // Router 1: Create a user using: post "/api/auth/createuser" and no login required.
 router.post(
@@ -106,7 +106,7 @@ router.post(
 
 router.post("/getuser", fetchuser, async (req, res) => {
   try {
-    userId = req.user.id;
+    const userId = req.user.id;
     const user = await User.findById(userId).select("-password");
     res.json(user);
   } catch (error) {
