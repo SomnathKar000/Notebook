@@ -9,6 +9,8 @@ The Notebook Website is a MERN stack project that allows users to upload, delete
 ## Login Page
 ![Login Page](https://github-production-user-asset-6210df.s3.amazonaws.com/108184610/245466731-06c9edc3-fb44-4f2d-8989-28a753085a60.png)
 
+## Technology Stack
+
 - React: A JavaScript library for building user interfaces.
 - React Router: A routing library for managing navigation within the application.
 - MongoDB: A NoSQL database for storing note data.
