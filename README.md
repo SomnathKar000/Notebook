@@ -2,8 +2,11 @@
 
 The Notebook Website is a MERN stack project that allows users to upload, delete, and update their personal notes, as well as search for notes by the title. It provides a user-friendly interface using Bootstrap for styling. The project utilizes the following technologies:
 
+## Home Page
 ![Home page](https://github-production-user-asset-6210df.s3.amazonaws.com/108184610/245466643-93d33d4f-cb37-4d12-9a11-b7d114134e54.png)
+## Sign up Page
 ![Sign up Page](https://github-production-user-asset-6210df.s3.amazonaws.com/108184610/245466743-d7a47818-570a-485d-9fd5-7e44ea5a9b7a.png)
+## Login Page
 ![Login Page](https://github-production-user-asset-6210df.s3.amazonaws.com/108184610/245466731-06c9edc3-fb44-4f2d-8989-28a753085a60.png)
 
 - React: A JavaScript library for building user interfaces.
